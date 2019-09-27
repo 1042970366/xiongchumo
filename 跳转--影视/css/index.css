@@ -1,0 +1,268 @@
+body {
+    background: url(../images/body_bg.png) repeat-y center;
+    width: 100%;
+    height: 3151px;
+}
+
+.banner {
+    width: 100%;
+    height: 421px;
+    background: url(../images/film_banner.jpg) no-repeat center;
+}
+
+.film_01 {
+    display: block;
+    width: 100%;
+    height: 363px;
+    background: url(../images/film_01.jpg) no-repeat center;
+    position: relative;
+}
+
+.film_01 .film_box {
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    position: absolute;
+}
+
+.film_01 .film_box .rmenu {
+    width: 100px;
+    background: url(../images/rmenu_bg.png)no-repeat;
+    padding-top: 180px;
+    position: absolute;
+    right: -215px;
+    z-index: 100;
+}
+
+.rmenu a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 7px auto;
+    transition: 0.8s;
+}
+
+.rmenu .rt1 {
+    background: url(../images/rt.png) no-repeat;
+    background-position: 0 0;
+}
+
+.rmenu .rt1:hover {
+    background: url(../images/rt_fan.png) no-repeat !important;
+    background-position: 0 0 !important;
+    transform: rotateY(360deg);
+}
+
+.rmenu .rt2 {
+    background: url(../images/rt.png) no-repeat;
+    background-position: 0 -72px;
+}
+
+.rmenu .rt2:hover {
+    background: url(../images/rt_fan.png) no-repeat !important;
+    background-position: 0 -72px !important;
+    transform: rotateY(360deg);
+}
+
+.rmenu .rt3 {
+    background: url(../images/rt.png) no-repeat;
+    background-position: 0 -143px;
+}
+
+.rmenu .rt3:hover {
+    background: url(../images/rt_fan.png) no-repeat !important;
+    background-position: 0 -143px !important;
+    transform: rotateY(360deg);
+}
+
+
+/* ================================================== */
+
+.film_02 {
+    display: block;
+    width: 100%;
+    height: 854px;
+    background: url(../images/film_02.jpg) no-repeat center;
+    position: relative;
+}
+
+.film_02 h2 {
+    position: absolute;
+    font-size: 22px;
+    color: #fff;
+    top: 195px;
+    left: 50%;
+    margin-left: 400px;
+}
+
+.film_02 div {
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    width: 500px;
+    left: 50%;
+    margin-left: 100px;
+    top: 260px;
+    text-indent: 2em;
+    line-height: 28px;
+}
+
+
+/* =========================================================== */
+
+.film_03 {
+    display: block;
+    width: 100%;
+    height: 877px;
+    background: url(../images/film_03.jpg) no-repeat center;
+    position: relative;
+}
+
+.film_03 h2 {
+    position: absolute;
+    font-size: 22px;
+    color: #fff;
+    top: 195px;
+    left: 50%;
+    margin-left: -600px;
+}
+
+.film_03 div {
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    width: 500px;
+    left: 50%;
+    margin-left: -600px;
+    top: 240px;
+    text-indent: 2em;
+    line-height: 28px;
+}
+
+
+/* ============================================================= */
+
+.film_04 {
+    display: block;
+    width: 100%;
+    height: 849px;
+    background: url(../images/film_04.jpg) no-repeat center;
+    position: relative;
+}
+
+.film_04 h2 {
+    position: absolute;
+    font-size: 22px;
+    color: #fff;
+    top: 195px;
+    left: 50%;
+    margin-left: 400px;
+}
+
+.film_04 div {
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    width: 500px;
+    left: 50%;
+    margin-left: 100px;
+    top: 260px;
+    text-indent: 2em;
+    line-height: 28px;
+}
+
+
+/* ========================================================= */
+
+.film_05 {
+    display: block;
+    width: 100%;
+    height: 897px;
+    background: url(../images/film_05.jpg) no-repeat center;
+    position: relative;
+}
+
+.film_05 h2 {
+    position: absolute;
+    font-size: 22px;
+    color: #fff;
+    top: 220px;
+    left: 50%;
+    margin-left: -600px;
+}
+
+.film_05 div {
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    width: 500px;
+    left: 50%;
+    margin-left: -600px;
+    top: 270px;
+    text-indent: 2em;
+    line-height: 28px;
+}
+
+
+/* ============================================== */
+
+.film_06 {
+    display: block;
+    width: 100%;
+    height: 654px;
+    background: url(../images/film_06.jpg) no-repeat center;
+    position: relative;
+}
+
+.film_06 h2 {
+    position: absolute;
+    font-size: 22px;
+    color: #f35643;
+    top: 195px;
+    left: 50%;
+    margin-left: 320px;
+}
+
+.film_06 div {
+    position: absolute;
+    color: #333;
+    font-size: 14px;
+    width: 600px;
+    left: 50%;
+    margin-left: 70px;
+    top: 260px;
+    text-indent: 2em;
+    line-height: 28px;
+}
+
+
+/* ============================================================ */
+
+.film_07 {
+    display: block;
+    width: 100%;
+    height: 481px;
+    background: url(../images/film_07.jpg) no-repeat center;
+    position: relative;
+}
+
+.film_07 h2 {
+    position: absolute;
+    font-size: 22px;
+    color: #f35643;
+    top: 70px;
+    left: 50%;
+    margin-left: -435px;
+}
+
+.film_07 div {
+    position: absolute;
+    color: #333;
+    font-size: 14px;
+    width: 500px;
+    left: 50%;
+    margin-left: -619px;
+    top: 140px;
+    text-indent: 2em;
+    line-height: 28px;
+}

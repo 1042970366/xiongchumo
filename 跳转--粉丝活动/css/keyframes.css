@@ -1,0 +1,90 @@
+@keyframes video_ani_play {
+    30% {
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+    }
+}
+
+@-webkit-keyframes video_ani_play {
+    30% {
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+    }
+}
+
+@keyframes returntop {
+    5% {
+        transform: rotateZ(5deg);
+        -o-transform: rotateZ(5deg);
+        -webkit-transform: rotateZ(5deg);
+    }
+
+    20% {
+        transform: rotateZ(-5deg);
+        -o-transform: rotateZ(-5deg);
+        -webkit-transform: rotateZ(-5deg);
+    }
+
+    25% {
+        transform: rotateZ(0);
+        -o-transform: rotateZ(0);
+        -webkit-transform: rotateZ(0);
+    }
+
+    30% {
+        transform: rotateZ(5deg);
+        -o-transform: rotateZ(5deg);
+        -webkit-transform: rotateZ(5deg);
+    }
+
+    45% {
+        transform: rotateZ(-5deg);
+        -o-transform: rotateZ(-5deg);
+        -webkit-transform: rotateZ(-5deg);
+    }
+
+    50% {
+        transform: rotateZ(0);
+        -o-transform: rotateZ(0);
+        -webkit-transform: rotateZ(0);
+    }
+}
+
+@keyframes gif {
+
+    0%,
+    100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    25% {
+        -moz-transform: rotate(15deg) scale(0.8);
+        -ms-transform: rotate(15deg) scale(0.8);
+        -webkit-transform: rotate(15deg) scale(0.8);
+        transform: rotate(15deg) scale(0.8);
+    }
+
+    50% {
+        -moz-transform: rotate(-15deg) scale(0.8);
+        -ms-transform: rotate(-15deg) scale(0.8);
+        -webkit-transform: rotate(-15deg) scale(0.8);
+        transform: rotate(-15deg) scale(0.8);
+    }
+
+    75% {
+        -moz-transform: rotate(5deg) scale(0.8);
+        -ms-transform: rotate(5deg) scale(0.8);
+        -webkit-transform: rotate(5deg) scale(0.8);
+        transform: rotate(5deg) scale(0.8);
+    }
+
+    85% {
+        -moz-transform: rotate(-5deg) scale(0.8);
+        -ms-transform: rotate(-5deg) scale(0.8);
+        -webkit-transform: rotate(-5deg) scale(0.8);
+        transform: rotate(-5deg) scale(0.8);
+    }
+}

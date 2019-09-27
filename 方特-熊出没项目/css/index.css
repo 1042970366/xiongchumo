@@ -1,0 +1,249 @@
+/* ##############################头部########################### */
+
+.head {
+    height: 120px;
+    width: 100%;
+    background: url(../images/topimg.jpg);
+    position: relative;
+}
+
+.nav {
+    height: 100%;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.nav>ul>li {
+    float: left;
+    height: 40px;
+    width: 95px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 15px;
+    /*padding: 0 15px;*/
+    /*margin: 0 15px;*/
+}
+
+.nav .text {
+    margin-top: 80px;
+    position: relative;
+    /*width: 70px;*/
+    padding: 0 5px;
+    /*border: 1px solid #000;*/
+}
+
+.nav .text a {
+    color: #333;
+    font-size: 18px;
+    font-weight: 520;
+}
+
+
+/*.nav .text a:hover{
+    display: block;
+    color: #fff;
+    background-color: #f1c831;
+    opacity: 0.7;
+
+}*/
+
+.nav .logo {
+    margin-top: 22px;
+    height: 95px;
+    width: 106px;
+    margin-right: 20px;
+}
+
+.head .yuyan {
+    position: absolute;
+    right: 187px;
+    top: 15px;
+    font-size: 13px;
+    color: #709596;
+}
+
+
+/*.text:hover{
+	background-color: orange;
+	opacity: 0.7;
+}*/
+
+.text ul {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #f1c831;
+}
+
+.text ul li {
+    height: 40px;
+    width: 105px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 15px 0px 0px;
+    position: relative;
+    /*border-bottom: 1px solid #999;*/
+    /*margin: 0 15px;*/
+    /*opacity: 0.7;*/
+}
+
+.xian {
+    position: absolute;
+    left: 20px;
+    width: 70px;
+    border-bottom: 1px solid #999;
+}
+
+.nav .text ul li a {
+    display: block;
+    font-size: 14px;
+    opacity: 0.7;
+    /*padding-bottom: 1px;*/
+    font-weight: 400;
+    /*border-bottom: 1px solid #000;*/
+}
+
+.nav .text ul li a:hover {
+    display: block;
+    background-color: #c7c864;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+/* ############################################################ */
+
+.return_top_index {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 16px;
+    height: 106px;
+    right: 80px;
+    bottom: 220px;
+    cursor: pointer;
+}
+
+.return_bg {
+    transform-origin: bottom center;
+}
+
+.return_bg:hover {
+    transition: all 0.2s;
+    animation-name: dong_hua;
+    animation-duration: 0.3s;
+}
+
+@keyframes dong_hua {
+    25% {
+        transform: rotate(-8deg);
+    }
+    50% {
+        transform: rotate(8deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.return_bg img {
+    border: 0;
+    display: block;
+    max-width: 100%;
+}
+
+.return_top {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    margin-left: 10px;
+}
+
+.return_top img {
+    border: 0;
+    display: block;
+    max-width: 100%;
+}
+
+
+/* ############################################################ */
+
+
+/*轮播图*/
+
+.flexslider {
+    position: relative;
+    height: 658px;
+    overflow: hidden;
+}
+
+.slides {
+    position: relative;
+    z-index: 1;
+}
+
+.slides li {
+    height: 658px;
+}
+
+.flex-control-nav {
+    position: absolute;
+    bottom: 10px;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+}
+
+.flex-control-nav li {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 5px;
+    *display: inline;
+    zoom: 1;
+}
+
+.flex-control-nav a {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 40px;
+    overflow: hidden;
+    background: url(../images/dot.png) right 0 no-repeat;
+    cursor: pointer;
+}
+
+.flex-control-nav .flex-active {
+    background-position: 0 0;
+}
+
+.flex-direction-nav {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    top: 45%;
+}
+
+.flex-direction-nav li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+}
+
+.flex-direction-nav li a.flex-prev {
+    left: 40px;
+    background: url(../images/prev.png) center center no-repeat;
+    opacity: 0.5;
+}
+
+.flex-direction-nav li a.flex-next {
+    right: 40px;
+    background: url(../images/next.png) center center no-repeat;
+    opacity: 0.5;
+}

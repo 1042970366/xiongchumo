@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/keyframes.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/returntop.js"></script>
+    <title>粉丝福利</title>
+    <style>
+        .fans-main {
+            width: 100%;
+        }
+        
+        .fans-banner {
+            width: 100%;
+            height: 400px;
+            background: url('./images/fans_banner.jpg') no-repeat center;
+        }
+        
+        .fans-content {
+            width: 100%;
+            height: 1645px;
+            background: url('./images/fans_bg.jpg') no-repeat center;
+            position: relative;
+            box-sizing: border-box;
+        }
+        
+        .content-right {
+            width: 1000px;
+            height: 1120px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 5px #f1f0e8;
+            position: absolute;
+            top: 45px;
+            right: 0;
+        }
+        
+        .div1280 {
+            width: 1280px;
+            margin: 0 auto;
+            height: 100%;
+            position: relative;
+        }
+        
+        .content-right h3 {
+            height: 50px;
+            border-bottom: 1px solid #e7e5e5;
+            width: 968px;
+            margin: 0 auto;
+            text-align: right;
+            color: #8f8f8e;
+            line-height: 70px;
+            padding: 0;
+            font-weight: normal;
+            font-size: 14px;
+        }
+        
+        .fans-biaoqingbao h2 {
+            color: #c66f20;
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: normal;
+            margin-left: 72px;
+            margin-top: 32px;
+        }
+        
+        .fans-biaoqingbao span {
+            color: #777;
+            font-size: 12px;
+            margin-left: 72px;
+        }
+        
+        .fans-download {
+            position: absolute;
+            right: 72px;
+            top: 96px;
+            width: 120px;
+            height: 35px;
+            text-align: center;
+            line-height: 35px;
+            color: #fff;
+            font-size: 16px;
+            box-shadow: 2px 2px 2px #d4d4d4;
+            background-color: #5fc8f8;
+            border-radius: 5px;
+            transition: .5s;
+            -webkit-transition: .5s;
+        }
+        
+        .fans-download:hover {
+            background: #fff;
+            color: #5fc8f8;
+        }
+        
+        .fans-biaoqingbao img {
+            margin: 30px auto;
+            padding-left: 72px;
+        }
+        
+        .content-left a:hover {
+            animation: gif 0.5s alternate;
+        }
+        
+        .gif1 {
+            position: absolute;
+            display: block;
+            top: 20px;
+            left: -30px;
+            z-index: 20;
+        }
+        
+        .gif1:hover {
+            animation: gif 0.5s alternate;
+        }
+        
+        .gif2 {
+            position: absolute;
+            display: block;
+            top: 280px;
+            left: 130px;
+            z-index: 20;
+        }
+        
+        .gif3 {
+            position: absolute;
+            display: block;
+            top: 500px;
+            left: 0;
+            z-index: 20;
+        }
+        
+        .gif4 {
+            position: absolute;
+            display: block;
+            top: 750px;
+            left: 55px;
+            z-index: 20;
+        }
+        
+        .return-top {
+            position: fixed;
+            display: none;
+            z-index: 999;
+            width: 200px;
+            height: 200px;
+            right: 50px;
+            bottom: 90px;
+            cursor: pointer;
+        }
+        
+        .return-top img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        
+        .return-bg {
+            width: 76px;
+            height: 106px;
+        }
+        
+        .return-top:hover .return-bg {
+            animation: returntop 1s infinite linear;
+        }
+        
+        .return {
+            width: 46px;
+            height: 49px;
+            transform: translateY(12px) translateX(1px);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="head">
+        <div class="nav clearfix">
+            <ul>
+                <li class="text"><a href="../方特-熊出没项目/index.html">
+                                首页
+                            </a>
+                </li>
+                <li class="text"><a href="#">
+                                方特家族</a>
+                    <ul>
+                        <li><a href="../跳转--家族成员/html/common.html">家族成员</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">所获荣誉</a></li>
+                    </ul>
+                </li>
+                <li class="text"><a href="#">最新资讯</a>
+                    <ul>
+                        <li><a href="../最新资讯/new.html">新闻资讯</a></li>
+                    </ul>
+                </li>
+                <li class="text"><a href="#">
+                                影视</a>
+                    <ul>
+                        <li><a href="../跳转--影视/index.htm">电影系列</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">TV系列</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">影视原声</a></li>
+                    </ul>
+                </li>
+                <li class="logo">
+                    <a href="#">
+                        <img src="./images/logo.png" alt="">
+                    </a>
+                </li>
+                <li class="text"><a href="#">
+                                授权合作</a>
+                    <ul>
+                        <li><a href="../跳转--授权合作/index.html">品牌介绍</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">品牌授权</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">品牌发行</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">授权合作</a></li>
+                    </ul>
+                </li>
+                <li class="text"><a href="#">
+                                商城</a>
+                    <ul>
+                        <li><a href="../跳转--商品展示/html/spzs.html">商品展示</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">网上商城</a></li>
+                    </ul>
+                </li>
+                <li class="text">
+                    <a href="#">粉丝活动</a>
+                    <ul>
+                        <li><a href="../跳转--粉丝活动/fansfuli.html">粉丝福利</a></li>
+                        <div class="xian"></div>
+                        <li><a href="../跳转--粉丝活动/fansactive.html">粉丝活动</a></li>
+                    </ul>
+                </li>
+                <li class="text"><a href="#">主题乐园</a>
+                    <ul>
+                        <li><a href="../跳转--主题乐园/index.html">主题乐园</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">主题项目</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <p class="yuyan"><a href="#">中文 | English</a></p>
+    </div>
+
+    <script src="./js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.flexslider-min.js"></script>
+    <script src="./js/xin.js"></script>
+
+    <!-- 头部 -->
+    <!-- 主体 -->
+    <!-- 返回顶部 -->
+    <div class="return-top">
+        <img src="./images/return_bg.png" alt="" class="return-bg">
+        <img src="./images/return_top.png" alt="" class="return">
+    </div>
+    <!-- 主体部分 -->
+    <div class="fans-main">
+        <div class="fans-banner">
+
+        </div>
+        <div class="fans-content">
+            <div class="div1280">
+                <div class="content-right">
+                    <h3>首页 > 粉丝活动 > 粉丝福利 > 表情包</h3>
+                    <div class="fans-biaoqingbao">
+                        <h2>熊出没表情包</h2>
+                        <span>熊大、熊二、光头强的故事早已红遍大江南北。这次他们萌萌哒表情做成了表情包你怎么能错过它。</span>
+                        <a href="./images/熊出没表情包v1.0.rar" class="fans-download">批量下载</a>
+                        <img src="./images/fans_bq_xcm_1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="content-left">
+                    <a href="#" class="gif1"><img src="./images/fans_xiong1.png" alt=""></a>
+                    <a href="#" class="gif2"><img src="./images/fans_xiong2.png" alt=""></a>
+                    <a href="#" class="gif3"><img src="./images/fans_xiong3.png" alt=""></a>
+                    <a href="#" class="gif4"><img src="./images/fans_xiong4.png" alt=""></a>
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 主体结束 -->
+    <!-- 底部 -->
+    <div class="bottom clearfix">
+        <a href="javascript:;">关于方特动漫</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="javascript:;">联系我们</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="javascript:;">加入我们</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="javascript:;">华强方特</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="javascript:;">方特旅游</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="javascript:;">网站地图</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./images/logo_bot.png" alt="">
+        <p>版权所有：华强方特（深圳）动漫有限公司 © 2005-2030 All rights reserved</p>
+        <p>《增值电信业务经营许可证》 许可证编号：粤B2-20090023 备案号：粤ICP备16051020号-1</p>
+        <!-- 底部 -->
+    </div>
+</body>
+
+</html>

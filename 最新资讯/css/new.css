@@ -1,0 +1,257 @@
+body {
+    background: url(../images/body_bg.png) no-repeat;
+    width: 100%;
+    height: 3151px;
+}
+
+
+/* ########################## banner################################ */
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background: url(../images/news_banner.jpg) center top no-repeat;
+}
+
+.new-list {
+    margin: 40px 120px;
+    font-style: 14px;
+}
+
+.left-list {
+    width: 592px;
+    height: 400px;
+    float: left;
+}
+
+.right-list {
+    float: right;
+    width: 650px;
+    height: 400px;
+    position: relative;
+}
+
+.right-list h1 {
+    color: #e66a62;
+    margin: 20px 0 5px 0;
+}
+
+.right-list .content {
+    width: 620px;
+    height: 255px;
+    margin-top: 20px;
+    overflow: hidden;
+    line-height: 25px;
+    text-indent: 2em;
+}
+
+.right-list .more {
+    display: block;
+    width: 240px;
+    height: 56px;
+    line-height: 56px;
+    background-color: #e66a62;
+    color: #fff;
+    font-style: 18px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* ################## banner######################## */
+
+
+/* ############################################################ */
+
+.return_top_index {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 16px;
+    height: 106px;
+    right: 80px;
+    bottom: 220px;
+    cursor: pointer;
+}
+
+.return_bg {
+    transform-origin: bottom center;
+}
+
+.return_bg:hover {
+    transition: all 0.2s;
+    animation-name: dong_hua;
+    animation-duration: 0.3s;
+}
+
+@keyframes dong_hua {
+    25% {
+        transform: rotate(-8deg);
+    }
+    50% {
+        transform: rotate(8deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.return_bg img {
+    border: 0;
+    display: block;
+    max-width: 100%;
+}
+
+.return_top {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    margin-left: 10px;
+}
+
+.return_top img {
+    border: 0;
+    display: block;
+    max-width: 100%;
+}
+
+
+/* ############################################################ */
+
+
+/* #####################list############################## */
+
+.newlist-ul {
+    width: 1280px;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+}
+
+.newlist-ul li {
+    width: 1280px !important;
+    height: 206px;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.newlist-ul li:hover {
+    background-color: #fbfbfb;
+}
+
+.newlist-ul a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.newlist-ul .list-left {
+    width: 330px;
+    height: 206px;
+    float: left;
+    overflow: hidden;
+    background-color: #fbfbfb;
+}
+
+.newlist-ul img {
+    width: 330px;
+    transition: all 0.5s linear;
+}
+
+.newlist-ul li:hover img {
+    transform: scale(1.02);
+    transform-origin: center;
+}
+
+.newlist-ul .list-right {
+    width: 860px;
+    float: left;
+    margin-left: 30px;
+    color: #666;
+    font-size: 14px;
+    /* border: 1px solid #000; */
+}
+
+.newlist-ul .list-right h2 {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #d2d2d2;
+    margin-bottom: 20px;
+    font-weight: normal;
+    overflow: hidden;
+    color: #e66a62;
+}
+
+.newlist-ul li:hover h2 {
+    color: blue;
+}
+
+.newlist-ul .date {
+    width: 92px;
+    height: 92px;
+    color: #fff;
+    float: left;
+    margin-right: 15px;
+    font-size: 40px;
+    text-align: center;
+    background-color: #f25643;
+    border: 1px solid #f25643;
+    text-indent: 0;
+}
+
+.newlist-ul h3 {
+    color: #f25643;
+    font-size: 18px;
+    background-color: #fff;
+    height: 27px;
+    line-height: 27px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.newlist-ul .list-right .txt {
+    text-indent: 2em;
+}
+
+
+/* #####################list############################## */
+
+
+/* ########################page################################ */
+
+.page {
+    height: 30px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.page .page-pre {
+    display: inline-block;
+    width: 30px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    background-color: #0d9fba;
+}
+
+.page .page-next {
+    display: inline-block;
+    width: 30px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    background-color: #0d9fba;
+}
+
+.page a {
+    color: #696767;
+    margin: 10px;
+    font-size: 13px;
+}
+
+
+/* ##########################page##################################### */

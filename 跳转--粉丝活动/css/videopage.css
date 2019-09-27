@@ -1,0 +1,147 @@
+/* *{
+    background: #232325;
+} */
+.icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    opacity: 0.8;
+    transition: all 1.2s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    opacity: 1;
+    transform: scale(1.8)
+}
+
+.play_main {
+    width: 100%;
+    /* display: flex; */
+    /* margin: 0 auto; */
+
+}
+
+.bg {
+    width: 100%;
+    /* background: #232325; */
+    /* background:linear-gradient(-104deg, #315153, #804D60); */
+    background: #000;
+    /* overflow: hidden; */
+}
+
+.play-container {
+    /* padding-left: 36px; */
+    width: 720px;
+    position: relative;
+    margin: 0 auto;
+    transform: translate(-10px,0);
+}
+
+.play-slide {
+    opacity: 0.36;
+    height: 100%;
+    width: 320px;
+    /* margin-right: 36px; */
+    background: linear-gradient(-6deg, #000, #232325);
+    position: absolute;
+    transition: all 1s;
+    left: 720px;
+    top: 0;
+    overflow: hidden;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    /* border-radius-left: 36px; */
+    border-top-left-radius: 38px;
+    border-bottom-right-radius: 72px;
+}
+
+.play-slide:hover {
+    opacity: 1;
+}
+
+.play-btn {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    z-index: 6;
+    opacity: 0.8;
+}
+
+.play-btn-follow {
+    position: absolute;
+    right: -318px;
+    top: 50%;
+    z-index: 6;
+    opacity: 1;
+}
+
+.play-btn-follow-2 {
+    position: absolute;
+    right: -32px;
+    top: 50%;
+    z-index: 6;
+    opacity: 1;
+    display: none;
+}
+
+
+.play-btn-open {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    z-index: 5;
+    opacity: 0.8;
+    display: none;
+}
+
+.play-slide ul {
+    padding-top: 12px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.play-slide ul li {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    /* background:linear-gradient(71deg, #EC819F, #AAB0CB); */
+    background: linear-gradient(153deg, #56E8C7, #6F44CB);
+    text-align: center;
+    font-size: 16px;
+    line-height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 49%;
+    font-weight: 700;
+    margin: 12px;
+    color: #000;
+    transition: all 340ms;
+}
+
+.play-slide ul li:nth-child(5n+1) {
+    margin-left: 36px;
+}
+
+.play-slide ul li:hover {
+    /* background:#000; */
+    background: linear-gradient(65deg, #369086, #BD9ABD);
+    color: #fff;
+    transform: scale(1.6);
+}
+
+@keyframes xuhao {
+    30% {}
+}
+
+.xiaotu {
+    width: 320px;
+    /* min-width: 320px; */
+    box-sizing: border-box;
+}
+
+.xiaotu img {
+    width: 100%;
+    margin-right: 50px;
+}

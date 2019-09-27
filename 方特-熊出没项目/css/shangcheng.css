@@ -1,0 +1,175 @@
+        .index4 {
+            width: 100%;
+            position: relative;
+            height: 221px;
+        }
+        
+        .header {
+            width: 100%;
+            height: 221px;
+            background: url(../images/pink.png) repeat-x top;
+            text-align: center;
+            position: absolute;
+        }
+        
+        .gwc {
+            width: 240px;
+            height: 90px;
+            background: url(../images/i4_title.png) no-repeat;
+            position: absolute;
+            top: 80px;
+            left: 50%;
+            margin-left: -130px;
+        }
+        
+        .store p {
+            margin-top: 60px;
+            margin-left: 50px;
+            color: #fff;
+            font-size: 50px;
+        }
+        
+        .store span {
+            color: #fff;
+            font-size: 20px;
+            margin-left: 50px;
+        }
+        /* ========================================================= */
+        
+        .shop {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .imgs {
+            margin: 100px 20px 50px 20px;
+        }
+        
+        .l-img {
+            width: 892px;
+            height: 546px;
+            position: relative;
+            /* overflow: hidden; */
+            float: left;
+        }
+        
+        .l-img ul {
+            position: relative;
+        }
+        
+        .l-img li {
+            position: absolute;
+            display: none;
+        }
+        
+        .l-img li:first-child {
+            display: block;
+        }
+        
+        .r-img {
+            width: 224px;
+            height: 136px;
+            float: right;
+        }
+        
+        .r-img li {
+            width: 224px;
+            height: 136px;
+            margin-bottom: 4px;
+            /* border: 1px solid #000; */
+            padding-left: 10px;
+        }
+        
+        .r-img li.cur {
+            background: url('../images/thumbWrap_li_bg.png') no-repeat;
+            background-position: center left;
+        }
+        /* .cur {
+            background: url('../images/thumbWrap_li_bg.png') no-repeat;
+            background-position: center left;
+        }
+         */
+        
+        .r-img img {
+            width: 214px;
+            height: 124px;
+        }
+        
+        .one {
+            border: 3px solid #f25643;
+        }
+        
+        .r-img .four img {
+            border-bottom: 0;
+        }
+        
+        .arrow {
+            position: relative;
+        }
+        
+        .arrow img {
+            width: 41px;
+            height: 42px;
+            border: 0;
+        }
+        
+        .arrow .arrow-up {
+            position: absolute;
+            left: 90px;
+            top: -580px;
+        }
+        
+        .arrow .arrow-down {
+            position: absolute;
+            top: -40px;
+            right: 90px;
+        }
+        /* .wrap {
+            position: relative;
+        }
+        
+        .wrap .th {
+            border: 0;
+            position: absolute;
+            width: 11px;
+            height: 27px;
+            right: 220px;
+            top: 54px;
+        } */
+        /*########################################################################## */
+        
+        .btn1 {
+            text-align: center;
+        }
+        
+        .btn1 img {
+            margin-bottom: 80px;
+            vertical-align: middle;
+        }
+        /* ###############################底部################################### */
+        
+        .bottom {
+            width: 100%;
+            height: 172px;
+            background: url(../images/bot_bg.jpg) no-repeat center top;
+            text-align: center;
+            font-size: 14px;
+            padding-top: 34px;
+            color: #000;
+        }
+        
+        .bottom a {
+            color: inherit;
+            margin-top: 10px;
+            color: #000;
+        }
+        
+        .bottom a:hover {
+            color: rgb(112, 112, 112);
+        }
+        
+        .bottom img {
+            display: block;
+            margin: 20px auto;
+        }
+        /* ##################################################################### */

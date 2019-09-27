@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="./js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.flexslider-min.js"></script>
+    <script src="./js/xin.js"></script>
+    <title>粉丝活动</title>
+    <style>
+        .top-bg {
+            width: 100%;
+            height: 498px;
+            background: url('./images/bg_activity.jpg') no-repeat center;
+        }
+
+        .img-act {
+            width: 100%;
+        }
+
+        .img-act img {
+            display: block;
+            width: 303px;
+            margin: 100px auto;
+        }
+
+        .act-open {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0 60px;
+            position: relative;
+        }
+
+        .act-text {
+            width: 620px;
+            height: 470px;
+            background: #f1f1f1;
+            border-radius: 10px;
+            padding-left: 40px;
+            padding-top: 40px;
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .act-text .textbox {
+            width: 374px;
+            height: 470px;
+        }
+
+        .textbox h2 {
+            color: #ce432c;
+            font-size: 24px;
+            margin-bottom: 24px;
+        }
+
+        .textbox h3 {
+            font-size: 16px;
+            margin-bottom: 30px;
+            color: #ce432c;
+        }
+
+        .textbox p {
+            font-size: 14px;
+            line-height: 26px;
+            margin-bottom: 30px;
+            color: #616161;
+        }
+
+        .act-tupiian {
+            /* margin: 20px 0; */
+            position: absolute;
+            left: 420px;
+            top: 20px;
+            z-index: 6;
+        }
+
+        .act-tupiian .sct-img-pos {
+            width: 100px;
+            height: 99px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .main-bottom {
+            width: 100%;
+            height: 220px;
+            box-sizing: border-box;
+            padding-top: 38px;
+        }
+
+        .btn-end {
+            margin-left: 100px;
+            font-size: 16px;
+            width: 140px;
+            height: 30px;
+            border: 2px solid #f49c8e;
+            border-radius: 10px;
+            text-align: center;
+            line-height: 30px;
+            transition: .5s;
+            color: #f49c8e;
+            cursor: pointer;
+        }
+
+        .btn-end:hover {
+            background-color: #f49c8e;
+            color: #fff;
+        }
+
+        .page {
+            width: 200px;
+            margin: 20px auto;
+            text-align: center;
+            font-weight: 900;
+            font-size: 20px;
+        }
+
+        .page a {
+            color: #fffff9;
+            display: inline-block;
+            background-color: #0d9fba;
+            width: 30px;
+            height: 28px;
+        }
+
+        .page span {
+            display: inline-block;
+            width: 32px;
+            height: 28px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .w1280 {
+            width: 1280px !important;
+            margin: 0 auto;
+        }
+        .event{
+            width: 1200px;
+            height: 520px;
+            margin: 0 auto;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="head">
+        <div class="nav">
+            <ul>
+                <li class="text"><a href="../方特-熊出没项目/index.html">
+                        首页
+                    </a>
+                </li>
+                <li class="text"><a href="#">
+                        方特家族</a>
+                    <ul>
+                        <li><a href="../跳转--家族成员/html/common.html">家族成员</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">所获荣誉</a></li>
+                    </ul>
+                </li>
+                <li class="text"><a href="#">最新资讯</a>
+                    <ul>
+                        <li><a href="../最新资讯/new.html">新闻资讯</a></li>
+                    </ul>
+                </li>
+                <li class="text"><a href="#">
+                        影视</a>
+                    <ul>
+                        <li><a href="../跳转--影视/index.htm">电影系列</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">TV系列</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">影视原声</a></li>
+                    </ul>
+                </li>
+                <li class="logo">
+                    <a href="#">
+                        <img src="./images/logo.png" alt="">
+                    </a>
+                </li>
+                <li class="text"><a href="#">
+                        授权合作</a>
+                    <ul>
+                        <li><a href="../跳转--授权合作/index.html">品牌介绍</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">品牌授权</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">品牌发行</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">授权合作</a></li>
+                    </ul>
+                </li>
+                <li class="text"><a href="#">
+                        商城</a>
+                    <ul>
+                        <li><a href="../跳转--商品展示/html/spzs.html">商品展示</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">网上商城</a></li>
+                    </ul>
+                </li>
+                <li class="text">
+                    <a href="#">粉丝活动</a>
+                    <ul>
+                        <li><a href="../跳转--粉丝活动/fansfuli.html">粉丝福利</a></li>
+                        <div class="xian"></div>
+                        <li><a href="../跳转--粉丝活动/fansactive.html">粉丝活动</a></li>
+                    </ul>
+                </li>
+                <li class="text"><a href="#">主题乐园</a>
+                    <ul>
+                        <li><a href="../跳转--主题乐园/index.html">主题乐园</a></li>
+                        <div class="xian"></div>
+                        <li><a href="#">主题项目</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <p class="yuyan"><a href="#">中文 | English</a></p>
+    </div>
+    <!-- 头部 -->
+    <!-- 主体 -->
+    <div class="active-main">
+
+        <div class="top-bg"></div>
+        <div class="img-act">
+            <img src="./images/event_title.jpg" alt="">
+        </div>
+        <div class="act-open">
+            <div class="w1280">
+                <div class="event">
+                    <div class="act-tupiian">
+                        <img src="./images/act-img.jpg" alt="">
+                        <div class="sct-img-pos">
+                            <img src="./images/evented.png" alt="">
+                        </div>
+                    </div>
+                    <div class="act-text">
+                        <div class="textbox">
+                            <h2>方特动漫开放日 欢乐梦幻探秘行！</h2>
+                            <h3>活动时间：2019.05.25—2019.09.30</h3>
+                            <p>4月24日正逢周末，“华强方特动漫开放日”首次举办，大受欢迎。关于“熊大、熊二是如何诞生的，熊出没背后的故事是怎样？”一直是很多熊粉们想要了解的话题，也有一些熊粉经常通过微博微信平台申请要来看看熊出没的出产地，华强方特动漫特地举办了动漫开放日这个活动，供更多的熊粉和动漫爱好者了解供更多的熊粉和动漫爱好者了解动漫制作的奥秘。
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="main-bottom">
+                    <div class="btn-end">已结束</div>
+                    <div class="page">
+                        <a href="#">&lt; </a>
+                        <span>1</span>
+                        <a href="#">&gt;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主体结束 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 底部 -->
+    <div class="bottom clearfix">
+        <a href="javascript:;">关于方特动漫</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a
+            href="javascript:;">联系我们</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a
+            href="javascript:;">加入我们</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a
+            href="javascript:;">华强方特</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a
+            href="javascript:;">方特旅游</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a
+            href="javascript:;">网站地图</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./images/logo_bot.png" alt="">
+        <p>版权所有：华强方特（深圳）动漫有限公司 © 2005-2030 All rights reserved</p>
+        <p>《增值电信业务经营许可证》 许可证编号：粤B2-20090023 备案号：粤ICP备16051020号-1</p>
+        <!-- 底部 -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+.commodity_banner {
+    width: 100%;
+    height: 400px;
+    background: url(../images/commodity_banner.jpg) no-repeat;
+}
+/* ------------------------------------------------------------商品展示 */
+.com_top img {
+    display: block;
+    margin: 50px auto;
+}
+/* ------------------------------------------------------------返回顶部 */
+
+.return {
+    width: 76px;
+    height: 106px;
+    position: fixed;
+    top: 200px;
+    right: 50px;
+}
+.return_bg {
+    position: fixed;
+    width: 76px;
+    height: 106px;
+    top: 200px;
+    right: 50px;
+    transition: all 0.5s
+}
+.return_top {
+    position: fixed;
+    width: 46px;
+    height: 49px;
+    top: 240px;
+    right: 65px;
+
+}
+.newshow {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+}
+.newshow .com_t1 img{
+    display: block;
+    margin: 0 auto;
+}
+.newshow ul  {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #ed958f;
+}
+.newshow ul li {
+    float: left;
+ 
+    height: 440px;
+   padding-top: 20px;
+   margin-top: 10px;
+}
+.newshow ul .pic {
+    width: 305px;
+    height: 230px;
+    overflow: hidden;
+}
+.newshow ul .tu {
+    width: 650px;
+    overflow: hidden;
+}
+.newshow ul li .wanou {
+    position: relative;
+    width: 650px;
+    height: 450px;
+
+}
+
+.newshow ul li .wanou img {
+    height: 430px;
+} 
+.newshow ul li .play {
+    position: absolute;
+    width: 650px;
+    height: 105px;
+    background: url(../images/com_bg1.png) no-repeat;
+    color: #fff;
+    bottom: 80px;
+    left: 0;
+}
+.newshow ul li .play h4 {
+    position: absolute;
+    font-size: 38px;
+   left: 50px;
+   top: 20px;
+}
+.newshow ul li .play span {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    font-size: 18px;
+   width: 310px;
+   height: 55px;
+} 
+.newshow ul li .shop {
+    display: block;
+    width: 305px;
+
+}
+.newshow ul li h4 {
+    width: 305px;
+    height: 48px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.newshow ul .right {
+    margin-right: 0;
+}
+.newshow ul .last {
+    float: right;
+   margin-right: 400px;
+}
+.newshow .buy {
+    width: 305px;
+    height: 30px;
+    line-height: 30px;
+}
+.newshow .buy  span {
+    font-size: 22px;
+    color: red;
+}
+.newshow .buy img {
+    float: right;
+}
+
+
+/* ----------------------------------------------------热卖商品 */
+.hotshop {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+}
+.hotshop ul {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.hotshop ul li {
+    float: left;
+    width: 410px;
+    height: 460px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.hotshop ul li .pic {
+    overflow: hidden;
+}
+.hotshop ul li .price {
+    position: relative;
+    height: 30px;
+   margin-top: 10px;
+}
+.hotshop ul li .price h4 {
+    position: absolute;
+    left: 0;
+    font-size: 22px;
+    color: red;
+}
+.hotshop ul li .price span {
+    position: absolute;
+    right: 0;
+}
+.hotshop ul li .wenzi {
+    font-size: 18px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.hotshop ul li .buy2 {
+    position: relative;
+    height: 30px;
+}
+.hotshop ul li .buy2 img {
+    position: absolute;
+    display: block;
+    right: 0;
+}
+.hotshop ul .right{
+margin-right: 0;
+}
+
+#photo {
+    transition: all 0.5s;
+    overflow: hidden;
+}
+li a:hover #photo {
+   transform:scale(1.1);
+}
+li a:hover h4 {
+    color: #ccc;
+}
+li a:hover .play h4 {
+    color: #fff;
+}
+li a:hover .price span {
+    color: #ccc;
+} 
+
+li a:hover .wenzi {
+    color: #ccc;
+} 
+

@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+input {
+	bottom: 0;
+	outline: 0;
+}
+img {
+	vertical-align: middle;
+	/*ie6的默认边框*/
+	border: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 400;
+}
+em i {
+	font-style: normal;
+}
+/*常用样式*/
+body {
+	font: 12px arial 'microsoft yahei';
+  color: #666;	
+}
+a {
+	color: #666;
+}
+a:hover {
+	color: #c81623;
+}
+.w {
+	width: 1200px;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	*zoom:1;
+}
+.red {
+	color: #C81623;
+}
+.f12 {
+	font-size: 12px;
+}
+.f14 {
+	font-size: 14px;
+}
+.f16 {
+	font-size: 16px;	
+}
+.f18 {
+	font-size: 18px;
+}
+.f20 {
+	font-size: 20px;
+}
+.tc {
+	text-align: center;
+}

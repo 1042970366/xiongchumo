@@ -1,0 +1,375 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.title {
+    width: 100%;
+    height: 142px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background: url('../images/i1_bg.png') repeat-x;
+    padding-top: 60px;
+    position: relative;
+}
+
+.title .title-1 {
+    position: absolute;
+    width: 240px;
+    height: 90px;
+    top: 60px;
+    left: 45%;
+}
+
+.title .title-1 p {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+}
+
+.title .title-1 img {
+    position: absolute;
+    left: -60px;
+    top: 10px;
+}
+
+.content {
+    width: 1130px;
+    height: 1000px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.content .one {
+    position: absolute;
+    left: -200px;
+    top: -10px;
+    z-index: -5;
+}
+
+.content .two {
+    position: absolute;
+    left: -380px;
+    bottom: 0px;
+}
+
+.content .three {
+    position: absolute;
+    right: -260px;
+    bottom: 300px;
+}
+
+.content .ewm {
+    position: absolute;
+    right: -260px;
+}
+
+.content .more {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+
+.content .box-1 {
+    position: absolute;
+    width: 679px;
+    height: 284px;
+    top: 40px;
+    left: 0;
+    background: url('../images/d31.jpg') no-repeat;
+    overflow: hidden;
+}
+
+.content .box-1 img {
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.content .box-1 .xl {
+    position: absolute;
+    text-align: center;
+    top: 120px;
+    right: 60px;
+    z-index: 60;
+}
+
+.content .box-1 .box {
+    background-color: #f27043;
+    z-index: 10;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 220px;
+    height: 284px;
+}
+
+.content .box-1 .box h4 {
+    font-size: 14px;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    width: 300px;
+    height: 75px;
+    color: #fff;
+    z-index: 20;
+    text-indent: 2em;
+}
+
+.content h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.content .box-2 {
+    position: absolute;
+    width: 453px;
+    height: 284px;
+    top: 40px;
+    right: 0;
+    background: url('../images/d34.jpg') no-repeat right top;
+    overflow: hidden;
+}
+
+.content .box-2 img {
+    z-index: 30;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content .box-2 .xj {
+    position: absolute;
+    z-index: 30;
+    text-align: center;
+    top: 120px;
+    left: 60px;
+}
+
+.content .box-2 .box {
+    background-color: #28b8ed;
+    z-index: 18;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 284px;
+}
+
+.content .box-2 .box h4 {
+    font-size: 14px;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 160px;
+    height: 75px;
+    color: #fff;
+    z-index: 20;
+    text-indent: 2em;
+}
+
+.content .box-3 {
+    position: absolute;
+    width: 453px;
+    height: 283px;
+    top: 324px;
+    left: 0;
+    background: url('../images/d35.jpg') no-repeat;
+    overflow: hidden;
+}
+
+.content .box-3 img {
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    right: 0;
+}
+
+.content .box-3 span {
+    font-size: 14px;
+}
+
+.content .box-3 .xc {
+    position: absolute;
+    z-index: 20;
+    text-align: center;
+    top: 120px;
+    right: 10px;
+}
+
+.content .box-3 .box {
+    background-color: #84e472;
+    z-index: 18;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 220px;
+    height: 283px;
+}
+
+.content .box-3 .box h4 {
+    font-size: 12px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    width: 150px;
+    height: 75px;
+    color: #fff;
+    z-index: 30;
+    text-indent: 2em;
+}
+
+.content .box-4 {
+    position: absolute;
+    width: 680px;
+    height: 283px;
+    top: 324px;
+    right: 0;
+    background: url('../images/d37.jpg') no-repeat;
+    overflow: hidden;
+}
+
+.content .box-4 img {
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    right: 0;
+}
+
+.content .box-4 span {
+    font-size: 14px;
+}
+
+.content .box-4 .se {
+    position: absolute;
+    z-index: 20;
+    text-align: center;
+    top: 120px;
+    right: 20px;
+}
+
+.content .box-4 .box {
+    background-color: #eba215;
+    z-index: 10;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 220px;
+    height: 284px;
+}
+
+.content .box-4 .box h4 {
+    font-size: 14px;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    width: 300px;
+    height: 75px;
+    color: #fff;
+    z-index: 20;
+    text-indent: 2em;
+}
+
+.content .box-5 {
+    position: absolute;
+    width: 680px;
+    height: 284px;
+    top: 607px;
+    left: 0;
+    background: url('../images/d50.jpg') no-repeat right top;
+    overflow: hidden;
+}
+
+.content .box-5 .xx {
+    position: absolute;
+    z-index: 60;
+    text-align: center;
+    top: 120px;
+    left: 60px;
+}
+
+.content .box-5 img {
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    left: 0;
+}
+
+.content .box-5 .box {
+    background-color: #28b8ed;
+    z-index: 10;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 284px;
+}
+
+.content .box-5 .box h4 {
+    font-size: 14px;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 300px;
+    height: 75px;
+    color: #fff;
+    z-index: 20;
+    text-indent: 2em;
+    ;
+}
+
+.content .box-6 {
+    position: absolute;
+    width: 453px;
+    height: 284px;
+    top: 607px;
+    right: 0;
+    background: url('../images/d42.jpg') no-repeat right top;
+    overflow: hidden;
+}
+
+.content .box-6 .dl {
+    position: absolute;
+    z-index: 30;
+    text-align: center;
+    top: 120px;
+    left: 60px;
+}
+
+.content .box-6 img {
+    z-index: 30;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content .box-6 .box {
+    background-color: #ffd859;
+    z-index: 18;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 284px;
+}
+
+.content .box-6 .box h4 {
+    font-size: 12px;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    width: 150px;
+    height: 75px;
+    color: #fff;
+    z-index: 20;
+    text-indent: 2em;
+}

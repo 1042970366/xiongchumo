@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>温馨提示</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,user-scalable=no">
+    <style type="text/css">
+        html { width:100%;height:100%;max-height:970px;padding:0;margin:0; font-size:62.5%;overflow:hidden;background-color:#eee;}
+        body { background:url(error_bg.jpg) no-repeat top center;width:100%;height:100%;max-height:970px;padding:0;margin:0;font-family:'Microsoft YaHei';padding-top:7rem;}
+        .error_logo { text-align:center;margin:0 auto 5rem;}
+            .error_logo img { display:inline;}
+        .error_msg { text-align:center;color:#888;vertical-align:middle;font-size:2rem;}
+            .error_msg img { display:inline; margin-right:10px;vertical-align:top;}
+        .error_line { margin:2rem auto; width:806px;display:block;}
+        .error_code {text-align:center;color:#888;vertical-align:middle;font-size:1.6rem;margin-top:.5rem; }
+
+        @media screen and (max-width:750px) {
+            .error_line { width:100%;}
+            .error_logo img { display:inline-block; width:46%;}
+        }
+    </style>
+</head>
+<body>
+    <div class="error_logo"><img src="error_logo_3.png" /></div>
+    <div class="error_msg">
+        <img src="error_notice.png" />
+        系统正在维护中...如有不便请谅解，请稍后再来。
+    </div>
+    <div id="error_code" class="error_code">404</div>
+    <img src="error_line.png" class="error_line" />
+	<script>
+	function getQueryString(name) {
+		var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+		var r = window.location.search.substr(1).match(reg);
+		if (r != null) {
+			return decodeURI(r[2]);
+		}
+		return null;
+	} 
+	var errorCode = getQueryString("errorCode") || "";
+	document.getElementById("error_code").innerText = errorCode;
+	</script>
+</body>
+</html>
